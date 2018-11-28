@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MSADateFormatter_Example' do
+  pod 'MSADateFormatter', :path => '../'
+
+  target 'MSADateFormatter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
