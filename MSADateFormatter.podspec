@@ -11,17 +11,9 @@ Pod::Spec.new do |s|
     s.license          = { :type => 'APACHE', :file => 'LICENSE' }
     s.author           = { 'aslanmehmetsalih' => 'aslanmehmetsalih@hotmail.com' }
     s.source           = { :git => 'https://github.com/aslanmehmetsalih/MSADateFormatter.git', :tag => s.version.to_s }
-    # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+    s.social_media_url = 'https://twitter.com/aslanmsalih'
     
     s.ios.deployment_target = '8.0'
     
     s.source_files = 'MSADateFormatter/Classes/**/*'
-    
-    # s.resource_bundles = {
-    #   'MSADateFormatter' => ['MSADateFormatter/Assets/*.png']
-    # }
-    
-    # s.public_header_files = 'Pod/Classes/**/*.h'
-    # s.frameworks = 'UIKit', 'MapKit'
-    # s.dependency 'AFNetworking', '~> 2.3'
 end
