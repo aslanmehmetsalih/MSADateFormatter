@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
     s.summary          = 'Date formatter helper for iOS apps.'
     
     s.homepage         = 'https://github.com/aslanmehmetsalih/MSADateFormatter'
-    s.screenshots      = 'https://raw.githubusercontent.com/aslanmehmetsalih/MSADateFormatter/master/Images/ss1.png', 'https://raw.githubusercontent.com/aslanmehmetsalih/MSADateFormatter/master/Images/ss2.png', 'https://raw.githubusercontent.com/aslanmehmetsalih/MSADateFormatter/master/Images/ss3.png'
+    s.screenshots      = 'https://raw.githubusercontent.com/aslanmehmetsalih/MSADateFormatter/master/MSADateFormatter/Images/ss1.png', 'https://raw.githubusercontent.com/aslanmehmetsalih/MSADateFormatter/master/MSADateFormatter/Images/ss2.png', 'https://raw.githubusercontent.com/aslanmehmetsalih/MSADateFormatter/master/MSADateFormatter/Images/ss3.png'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'aslanmehmetsalih' => 'aslanmehmetsalih@hotmail.com' }
     s.source           = { :git => 'https://github.com/aslanmehmetsalih/MSADateFormatter.git', :tag => s.version.to_s }
