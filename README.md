@@ -24,4 +24,4 @@ pod 'MSADateFormatter'
 
 ## License
 
-MSADateFormatter is available under the APACHE license. See the LICENSE file for more info.
+MSADateFormatter is available under the MIT license. See the LICENSE file for more info.
