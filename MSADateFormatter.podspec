@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'MSADateFormatter'
-    s.version          = '1.0.0'
+    s.version          = '1.1.0'
     s.summary          = 'Date formatter helper for iOS apps.'
     
     s.homepage         = 'https://github.com/aslanmehmetsalih/MSADateFormatter'

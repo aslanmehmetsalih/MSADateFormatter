@@ -1,0 +1,16 @@
+PODS:
+  - MSADateFormatter (1.1.0)
+
+DEPENDENCIES:
+  - MSADateFormatter (from `../`)
+
+EXTERNAL SOURCES:
+  MSADateFormatter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MSADateFormatter: c070e7ed86a05c11753c72eac24f2bd20c491fde
+
+PODFILE CHECKSUM: 6061fd7e6bf5390b1d82918df56d3b17c9e11dca
+
+COCOAPODS: 1.5.3
