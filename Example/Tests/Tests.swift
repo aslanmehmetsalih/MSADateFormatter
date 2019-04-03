@@ -1,6 +1,10 @@
 import XCTest
 import MSADateFormatter
 
+extension Date.Format {
+    static let dateTime = Date.Format.custom(rawValue: "yyyy-MM-dd HH:mm:ss")
+}
+
 class Tests: XCTestCase {
     
     override func setUp() {
@@ -13,16 +17,37 @@ class Tests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+    func testStringToDate() {
+        // Value
+        let dateString = "2001-01-01 01:01:00"
+        
+        // Create a Date
+        let date = Date.from(dateString, format: .dateTime)
+        
+        // Check
+        XCTAssertNotNil(date)
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure() {
-            // Put the code you want to measure the time of here.
-        }
+    func testDateToString() {
+        // Value
+        let date = Date()
+        
+        // Create a String
+        let dateString = date.to(.MMMM)
+        
+        // Check
+        XCTAssertNotNil(dateString)
+    }
+    
+    func testTimeIntervalToString() {
+        // Value
+        let timeInterval = TimeInterval(exactly: 1549611277)!
+        
+        // Create a Date
+        let date = Date.from(timeInterval)
+        
+        // Check
+        XCTAssertNotNil(date)
     }
     
 }

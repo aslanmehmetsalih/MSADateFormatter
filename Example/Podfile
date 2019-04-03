@@ -1,12 +1,6 @@
-platform :ios, '9.0'
 use_frameworks!
-
-target 'MSADateFormatter_Example' do
+target 'MSADateFormatter_Tests' do
   pod 'MSADateFormatter', :path => '../'
-
-  target 'MSADateFormatter_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  
+  
 end
